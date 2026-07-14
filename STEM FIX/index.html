@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Signal Clinic — Stem Repair Console</title>
+<title>Stem Fix — Stem Repair Console</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -236,7 +236,7 @@
 <script>
 /* ===== DSP MODULE ===== */
 /* =========================================================
-   SIGNAL CLINIC — stem repair console
+   STEM FIX — stem repair console
    Pure Web Audio + manual DSP. No frameworks.
    ========================================================= */
 
@@ -541,7 +541,7 @@
   }
 
   // expose for app.html to consume
-  window.SignalClinicDSP = {
+  window.StemFixDSP = {
     processChain,
     computeStats,
     encodeWAV,
@@ -552,7 +552,7 @@
 /* ===== UI MODULE ===== */
 (function () {
   "use strict";
-  const DSP = window.SignalClinicDSP;
+  const DSP = window.StemFixDSP;
 
   /* ---------------------------------------------------------
      PRESETS — defaults per stem type, derived from the
