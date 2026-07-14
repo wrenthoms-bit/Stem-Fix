@@ -21,12 +21,12 @@ That also means it works as an installable app with zero extra infrastructure.
 ## 1. Push it to GitHub
 
 ```bash
-cd stem-fix
+cd Stem-Fix
 git init
 git add .
 git commit -m "Stem Fix"
 git branch -M main
-git remote add origin https://github.com/<your-username>/stem-fix.git
+git remote add origin https://github.com/<your-username>/Stem-Fix.git
 git push -u origin main
 ```
 
@@ -36,7 +36,7 @@ Repo → **Settings → Pages** → Source: **Deploy from a branch** → Branch:
 Give it a minute, then your app is live at:
 
 ```
-https://<your-username>.github.io/stem-fix/
+https://<your-username>.github.io/Stem-Fix/
 ```
 
 The `.nojekyll` file matters here — without it, GitHub Pages runs your site through Jekyll,
