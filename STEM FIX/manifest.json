@@ -1,6 +1,6 @@
 {
-  "name": "Signal Clinic — Stem Repair Console",
-  "short_name": "Signal Clinic",
+  "name": "Stem Fix — Stem Repair Console",
+  "short_name": "Stem Fix",
   "description": "Browser-based stem repair: transient gate, filtering, EQ, compression and stereo imaging for AI-generated and problem stems. Runs fully offline, nothing uploads anywhere.",
   "id": "/",
   "start_url": "./index.html",
