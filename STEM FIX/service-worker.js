@@ -1,4 +1,4 @@
-const CACHE_NAME = "signal-clinic-v1";
+const CACHE_NAME = "stem-fix";
 const APP_SHELL = [
   "./",
   "./index.html",
