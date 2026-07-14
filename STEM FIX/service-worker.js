@@ -1,4 +1,4 @@
-const CACHE_NAME = "stem-fix";
+const CACHE_NAME = "Stem-Fix";
 const APP_SHELL = [
   "./",
   "./index.html",
