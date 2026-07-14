@@ -1,4 +1,4 @@
-# Signal Clinic — Stem Repair Console
+# Stem Fix — Stem Repair Console
 
 A five-stage repair chain for stems — transient gate, high-pass filter, low-mid EQ cut,
 compressor, stereo imaging — built for the specific fault pattern common in AI-generated
@@ -21,12 +21,12 @@ That also means it works as an installable app with zero extra infrastructure.
 ## 1. Push it to GitHub
 
 ```bash
-cd signal-clinic
+cd stem-fix
 git init
 git add .
-git commit -m "Signal Clinic v1"
+git commit -m "Stem Fix"
 git branch -M main
-git remote add origin https://github.com/<your-username>/signal-clinic.git
+git remote add origin https://github.com/<your-username>/stem-fix.git
 git push -u origin main
 ```
 
@@ -36,7 +36,7 @@ Repo → **Settings → Pages** → Source: **Deploy from a branch** → Branch:
 Give it a minute, then your app is live at:
 
 ```
-https://<your-username>.github.io/signal-clinic/
+https://<your-username>.github.io/stem-fix/
 ```
 
 The `.nojekyll` file matters here — without it, GitHub Pages runs your site through Jekyll,
@@ -46,7 +46,7 @@ packaging tools need later). Keep it in the repo root even if it looks like an e
 ## 3. Install it on Android
 
 Open the GitHub Pages URL in **Chrome on Android**. You'll either get an automatic
-"Add Signal Clinic to Home screen" prompt, or you can trigger it manually:
+"Add Stem Fix to Home screen" prompt, or you can trigger it manually:
 
 Chrome menu (⋮) → **Install app** (or **Add to Home screen**)
 
@@ -77,8 +77,8 @@ beyond what's already in this repo.
 
 ## Notes for future you
 
-- Bump `CACHE_NAME` in `service-worker.js` (e.g. `signal-clinic-v2`) any time you change
+- Bump `CACHE_NAME` in `service-worker.js` (e.g. `stem-fix`) any time you change
   `index.html` — otherwise installed devices will keep serving the old cached version for a
   while.
-- All the DSP is in one script block in `index.html` under `SignalClinicDSP` — if this grows
+- All the DSP is in one script block in `index.html` under `StemFixDSP` — if this grows
   into more than a stem-repair tool, that's the natural place to split into modules.
